@@ -1,0 +1,21 @@
+{
+  "name": "Middlewares",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "iron-session": "^8.0.2",
+    "next": "14.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}

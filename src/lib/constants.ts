@@ -1,0 +1,1 @@
+export const CookiePassWord = 'YNBG*@@9TX4eBHzXakPYxisi.GQpFYVN';
